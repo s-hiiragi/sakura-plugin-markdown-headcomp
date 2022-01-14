@@ -1,0 +1,14 @@
+﻿[Plugin]
+Id={8507BDF5-CA78-4994-A669-0EB9E1CCF7DB}
+Name=Markdown見出し補完プラグイン
+Description=Markdown Heading Complement Plugin
+Type=wsh
+Author=s_hiiragi
+Version=1.0
+
+[Plug]
+Complement=complement.js
+Complement.Label=headcomp
+
+[Wsh]
+UseCache=0
